@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/org.eclipse.core.commands_3.9.0.v20170530-1048.jar"/>
+	<classpathentry kind="lib" path="libraries/org.eclipse.core.databinding_1.6.100.v20170515-1119.jar"/>
+	<classpathentry kind="lib" path="libraries/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar" sourcepath="C:/Users/Edoardo/Downloads/eclipse-java-oxygen-R-win32-x86_64/eclipse/plugins/org.eclipse.equinox.common.source_3.9.0.v20170207-1454.jar"/>
+	<classpathentry kind="lib" path="libraries/org.eclipse.jface_3.13.0.v20170503-1507.jar" sourcepath="C:/Users/Edoardo/Downloads/eclipse-java-oxygen-R-win32-x86_64/eclipse/plugins/org.eclipse.jface.source_3.13.0.v20170503-1507.jar"/>
+	<classpathentry kind="lib" path="libraries/org.eclipse.jface.databinding_1.8.100.v20170503-1507.jar"/>
+	<classpathentry kind="src" path="/lppedd.j.api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/lppedd.eclipse.swt.custom">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="lppedd.eclipse.swt.custom/dll"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
